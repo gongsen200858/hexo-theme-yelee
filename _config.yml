@@ -17,7 +17,7 @@ menu:
 avatar: /img/avatar.png
 
 # Small icon of Your site | 站点小图标地址
-favicon: /favicon.png
+favicon: /favicon.ico
 
 # Internationalization | 主题语言
 ## Change Language in SITE's _config.yml | 在站点配置中切换语言
@@ -85,7 +85,7 @@ preload_comment: true
 ## false: 当点击评论条等区域时再加载评论模块
 ## false: load comment's section until u click/hover on the bar/icon
 
-show_count: false
+show_count: true
 ## 是否在主页文章标题旁显示评论数（多说、Disqus）
 ## Add comment count after article title
 
@@ -97,8 +97,8 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
-  #on: true
-  domain: 
+  on: true
+  domain: gongsen
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
@@ -187,7 +187,7 @@ friends:
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+aboutme: 专注于后端
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
@@ -219,7 +219,7 @@ ie_updater:
 
 # Tab Title Change | 标签页标题切换
 tab_title_change: 
-  on: false
+  on: on
   left_tab_title: '(つェ⊂) 我藏好了哦~ '
   return_tab_title: '(*´∇｀*) 被你发现啦~ '
 
@@ -230,7 +230,7 @@ tab_title_change:
 ## Insatall below plugin to take effect | 使用搜索需先安装对应插件
 ## https://github.com/PaicHyperionDev/hexo-generator-search
 search: 
-  #on: true
+  on: true
   onload: false
   ## true: get search.xml file when the page has loaded
   ## false: get the file when search box gets focus
